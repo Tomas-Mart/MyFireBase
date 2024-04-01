@@ -1,0 +1,48 @@
+# Xcode Project
+**/*.xcodeproj/xcuserdata/
+**/*.xcworkspace/xcuserdata/
+**/*.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+**/*.xcworkspace/xcshareddata/*.xccheckout
+**/*.xcworkspace/xcshareddata/*.xcscmblueprint
+
+Example/umavideofeed.xcodeproj/xcshareddata/
+
+# Build
+build/
+DerivedData
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Flutter
+flutter_project/imolodec/
+flutter_project/flutter_engine/
+flutter_project/flutter_module/
+
+# Xcode per-user config
+flutter_project/*.mode1
+flutter_project/*.mode1v3
+flutter_project/*.mode2v3
+flutter_project/*.perspective
+flutter_project/*.perspectivev3
+flutter_project/*.pbxuser
+flutter_project/*.xcworkspace
+flutter_project/xcuserdata
+
+# XCodeGen
+*.xcworkspace/
+
+
+# Other
+fastlane/test_output/
+fastlane/report.xml
+fastlane/README.md
+*.DS_Store
+/linter
+/ci
+vesdk_frameworks.tar.gz
+vesdk_ios
+.vscode/
+config.json
+logger-config.json
